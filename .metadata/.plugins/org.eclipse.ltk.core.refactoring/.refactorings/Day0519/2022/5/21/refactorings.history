@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Study&apos; to &apos;com.array&apos;&#x0D;&#x0A;- Original project: &apos;Day0519&apos;&#x0D;&#x0A;- Original element: &apos;Day0519/src/Study&apos;&#x0D;&#x0A;- Renamed element: &apos;Day0519/src/com.array&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Study&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Study" name="com.array" qualified="false" references="true" stamp="1652921008224" textual="false" version="1.0"/>
+</session>

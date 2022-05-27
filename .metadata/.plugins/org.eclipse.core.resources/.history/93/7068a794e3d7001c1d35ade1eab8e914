@@ -1,0 +1,23 @@
+package com.constexx;
+
+public class ThisEx03 {
+
+	String title;
+	String author;
+
+	public void show() {
+		System.out.println(title + " " + author);
+		
+		public BookEx02() {
+			
+		}
+		
+public BookEx02(String title) {
+			
+		}
+
+public BookEx02(String title, String author) {
+	
+}
+	}
+}

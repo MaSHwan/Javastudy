@@ -1,0 +1,5 @@
+package com.score;
+
+public class SungImpl02 extends Record implements Sung{
+
+}

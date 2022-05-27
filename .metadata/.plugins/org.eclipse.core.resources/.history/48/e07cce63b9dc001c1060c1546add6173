@@ -1,0 +1,10 @@
+package com.inner;
+
+public class MemberinnerEx {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

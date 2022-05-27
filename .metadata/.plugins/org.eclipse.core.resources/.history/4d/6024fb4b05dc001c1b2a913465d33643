@@ -1,0 +1,31 @@
+package com.play;
+
+public class Piano extends Instrument {
+	public static void main(String[] args) {
+		Piano p = new Piano();
+		p.play();
+		p.volumeup();
+		p.volumedown();
+	}
+		
+	
+
+	@Override
+	void play() {
+		// TODO Auto-generated method stub
+		System.out.println("play() »£√‚µ ");
+	}
+
+	@Override
+	void volumeup() {
+		// TODO Auto-generated method stub
+		System.out.println("volume up() »£√‚µ ");
+	}
+
+	@Override
+	void volumedown() {
+		// TODO Auto-generated method stub
+		System.out.println("volume down() »£√‚µ ");
+	}
+
+}

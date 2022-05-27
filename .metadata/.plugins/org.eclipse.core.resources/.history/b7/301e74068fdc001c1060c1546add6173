@@ -1,0 +1,23 @@
+package com.play;
+
+public class Flute extends Instrument{
+
+	@Override
+	void play() {
+		// TODO Auto-generated method stub
+		System.out.println("Flute : play() »£√‚µ ");
+	}
+
+	@Override
+	void volumeup() {
+		// TODO Auto-generated method stub
+		System.out.println("Flute : volume up() »£√‚µ ");
+	}
+
+	@Override
+	void volumedown() {
+		// TODO Auto-generated method stub
+		System.out.println("Flute : volume down() »£√‚µ ");
+	}
+
+}

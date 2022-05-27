@@ -1,0 +1,12 @@
+package cpm.classexam;
+import java.io.*;
+import java.util.*;
+public class ClassExam01 {
+public static void main(String[] args)throws IOException {
+	ClassExam ce = new ClassExam();
+	
+	//°ª ÀÔ·Â
+	ce.setX();
+	ce.setY();
+}
+}

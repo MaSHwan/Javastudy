@@ -1,0 +1,8 @@
+package com.play;
+
+public abstract class Instrument {
+abstract public String play();
+abstract public String volumeup();
+abstract public String volumedown();
+
+}

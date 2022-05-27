@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="com.methodEx.ValueParameter"/>
+    <fullyQualifiedTypeName name="com.methodEx.ReferenceParameter"/>
+    <fullyQualifiedTypeName name="com.methodEx.VariableEx"/>
+    <fullyQualifiedTypeName name="com.methodEx.OverloadingEx01"/>
+    <fullyQualifiedTypeName name="com.constexx.Circle"/>
+    <fullyQualifiedTypeName name="com.constexx.Book"/>
+    <fullyQualifiedTypeName name="com.constexx.ThisEx02"/>
+    <fullyQualifiedTypeName name="com.constexx.BookEx02"/>
+    <fullyQualifiedTypeName name="com.classex.Account"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="com.ex.AbstractBicycle"/>
+    <fullyQualifiedTypeName name="com.inner.OuterEx.InnerEx"/>
+    <fullyQualifiedTypeName name="com.inner.MemberinnerEx.Inner"/>
+</qualifiedTypeNameHistroy>
