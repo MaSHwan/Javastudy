@@ -34,7 +34,8 @@ public class MemberMain {
 				memberService.process(listAction, sc);
 				break;
 			case "3":
-				
+				DeleteAction deleteAction = new DeleteAction();
+				memberService.process(deleteAction, sc);
 				break;
 			case "4":
 				UpdateAction updateAction = new UpdateAction();
