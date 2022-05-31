@@ -6,7 +6,7 @@ public class ECar {
 	private int distance = 0;
 
 	public static ECar getInstance() {
-		Ecar car = new ECar();
+		ECar car = new ECar();
 		return car;
 		// °´Ã¼ ¹ÝÈ¯
 
@@ -33,7 +33,7 @@ public class ECar {
 
 	public static void main(String[] args) {
 		//ECar car = new Ecar();
-		Ecar car = ECar.getInstance();
+		ECar car = ECar.getInstance();
 		car.drive();
 		car.drive();
 		car.drive();

@@ -17,4 +17,5 @@
     <fullyQualifiedTypeName name="com.inner.OuterEx.InnerEx"/>
     <fullyQualifiedTypeName name="com.inner.MemberinnerEx.Inner"/>
     <fullyQualifiedTypeName name="com.member.MemberVO"/>
+    <fullyQualifiedTypeName name="java.lang.Class"/>
 </qualifiedTypeNameHistroy>
