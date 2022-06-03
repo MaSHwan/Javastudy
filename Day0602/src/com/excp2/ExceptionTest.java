@@ -3,21 +3,37 @@ package com.excp2;
 public class ExceptionTest {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		try {
-		startInstall();//프로그램 설치 준비
-		copyFiles();
-		}catch (SpaceException e) {
-			System.out.println("공간 부족");
-			// TODO: handle exception
-		}catch (MemoryException e) {
-			System.out.println("메모리 부족");
-			// TODO: handle exception
-		}finally {
-			deleteTempFiles();
+			Install();
+		}catch(InstallException e) {
+			e.printStackTrace();
+		}catch(Exception e) {
+			e.printStackTrace();
 		}
 	}
+	
+	static void Install() throws InstallException{
+		
+		try {
+			startInstall();	// 파일의 프로그램 설치할 준비
+			copyFiles();	// 파일을 복사
+			
+		}catch (SpaceException se) {
+			InstallException ie = new InstallException("설치중 예외 발생..");
+			ie.initCause(se);	// 지정한 예외를 원인으로 등록하는 기능
+			throw ie;			// 원인예외를 반환함
+		}catch (MemoryException me) {
+			InstallException ie = new InstallException("설치중 예외 발생..");
+			ie.initCause(me);	// 지정한 예외를 원인으로 등록하는 기능
+			throw ie;			// 원인예외를 반환함
+		}finally {
+			deleteTempFiles();	// 프로그램 설치에 사용된 임시파일들을 제거한다.
+		}
+		
+	}
+	
 	static void startInstall() throws SpaceException, MemoryException{
+		
 		if(!enoughSpace()) {// 프로그램 설치시 공간이 부족한 경우
 			throw new SpaceException("설치할 공간이 매우 부족");
 		}
