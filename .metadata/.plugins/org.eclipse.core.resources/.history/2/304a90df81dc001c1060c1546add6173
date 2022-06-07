@@ -1,5 +1,0 @@
-package com.mouse;
-
-public abstract class Mouse {
-
-}

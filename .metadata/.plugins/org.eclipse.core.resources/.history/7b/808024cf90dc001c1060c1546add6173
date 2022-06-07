@@ -1,8 +1,0 @@
-package com.mouse;
-
-public interface IRFMosue {
-abstract void wconnect();
-abstract void wdisconnect();
-static final String A = "무선방식 : 블루투스";
-//String getA();
-}

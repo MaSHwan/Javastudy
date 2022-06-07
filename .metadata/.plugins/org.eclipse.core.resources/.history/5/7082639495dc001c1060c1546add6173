@@ -1,7 +1,0 @@
-package com.score;
-
-public abstract class Record {
-abstract String name();
-String[] score = new String[3];
-
-}

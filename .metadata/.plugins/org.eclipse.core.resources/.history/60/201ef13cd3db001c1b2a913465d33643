@@ -1,7 +1,0 @@
-package com.inher.ec;
-
-public class AbstractBicycle {
-	//¸â¹öº¯¼ö
-	int id;
-	String brand;
-}

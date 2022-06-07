@@ -1,7 +1,0 @@
-package com.mouse;
-
-public interface IRFMosue {
-abstract void wconnect();
-abstract void wdisconnect();
-
-}

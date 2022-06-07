@@ -1,9 +1,0 @@
-package com.play;
-
-public abstract class Piano {
-	abstract public int volumeup();
-
-	abstract public int volumedown();
-
-	abstract public String play();
-}
