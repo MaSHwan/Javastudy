@@ -10,7 +10,6 @@
     <fullyQualifiedTypeName name="com.constexx.ThisEx02"/>
     <fullyQualifiedTypeName name="com.constexx.BookEx02"/>
     <fullyQualifiedTypeName name="com.classex.Account"/>
-    <fullyQualifiedTypeName name="java.nio.Buffer"/>
     <fullyQualifiedTypeName name="java.net.Socket"/>
     <fullyQualifiedTypeName name="com.ex.AbstractBicycle"/>
     <fullyQualifiedTypeName name="com.inner.OuterEx.InnerEx"/>
@@ -22,17 +21,20 @@
     <fullyQualifiedTypeName name="com.inherex.Sawon2.Sales2"/>
     <fullyQualifiedTypeName name="q.B"/>
     <fullyQualifiedTypeName name="com.excp2.InstallException"/>
-    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
-    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
     <fullyQualifiedTypeName name="java.lang.NumberFormatException"/>
-    <fullyQualifiedTypeName name="java.io.IOException"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="Study.Generic"/>
     <fullyQualifiedTypeName name="Study.StackTest"/>
     <fullyQualifiedTypeName name="java.util.Stack"/>
     <fullyQualifiedTypeName name="java.util.Queue"/>
-    <fullyQualifiedTypeName name="java.util.LinkedList"/>
     <fullyQualifiedTypeName name="Study.ArrayList"/>
     <fullyQualifiedTypeName name="Study.Card"/>
+    <fullyQualifiedTypeName name="java.util.LinkedList"/>
+    <fullyQualifiedTypeName name="java.nio.Buffer"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.util.ListIterator"/>
+    <fullyQualifiedTypeName name="java.io.IOException"/>
+    <fullyQualifiedTypeName name="com.arrayex.ScoreVO"/>
 </qualifiedTypeNameHistroy>
