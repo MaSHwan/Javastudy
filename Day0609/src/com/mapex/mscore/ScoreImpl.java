@@ -119,10 +119,13 @@ public class ScoreImpl implements Score {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String name;
 		char ch = 0;
-//		System.out.println("1 : 이름으로 검색");
-//		System.out.println("2 : 학번으로 검색");
-//		ch = (char) br.read();
-//		if (ch == '1') {
+		System.out.println("1 : 이름으로 검색");
+		System.out.println("2 : 학번으로 검색");
+		ch = (char) br.read();
+		br.read();
+		br.read();
+		
+		if (ch == '1') {
 
 			System.out.println("\n 검색할 이름 입력 : ");
 			name = br.readLine();
@@ -132,13 +135,13 @@ public class ScoreImpl implements Score {
 			while (it.hasNext()) {
 				String key = it.next();
 				ScoreVO data = map.get(key);
-				if (data.getName().equals(name))
+				if (data.getName().equals(name)) {
 					System.out.println(data.toString());
-				else
+				}else {
 					System.out.println("존재하지 않습니다.");
-				
+				}
 			}
-//		} else if (ch == '2') {
+		} else if (ch == '2') {
 			String hak;
 			System.out.print("\n 검색할 학번 입력 : ");
 			hak = br.readLine();
@@ -148,12 +151,13 @@ public class ScoreImpl implements Score {
 			while (it2.hasNext()) {
 				String key2 = it2.next();
 				ScoreVO data2 = map.get(key2);
-				if (data2.getHak().equals(hak))
-					System.out.println(data2.toString());
-				else
-					System.out.println("존재하지 않습니다.");
-			}
-//		}
+				if (data2.getHak().equals(hak)) {
+				System.out.println(data2.toString());
+				}else {
+				System.out.println("존재하지 않습니다.");
+				}
+				}
+		}
 		return 0;
 	}
 

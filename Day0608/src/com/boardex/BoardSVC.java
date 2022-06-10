@@ -5,6 +5,7 @@ import java.util.*;
 public class BoardSVC {
 	Scanner sc = new Scanner(System.in);
 
+//	ArrayList<BoardVO> boardList;
 	ArrayList<BoardVO> boardList;
 
 	public BoardSVC() {
