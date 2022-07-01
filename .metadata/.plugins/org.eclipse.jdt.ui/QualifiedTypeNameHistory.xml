@@ -55,4 +55,6 @@
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="java.lang.InterruptedException"/>
+    <fullyQualifiedTypeName name="com.dbex.ConnUtil"/>
+    <fullyQualifiedTypeName name="java.util.Properties"/>
 </qualifiedTypeNameHistroy>
