@@ -261,7 +261,7 @@ public class employeeDAO {
 
 	         int cols = rsmd.getColumnCount();
 
-	         for (int i = 1; i < cols; i++) {
+	         for (int i = 1; i <= cols; i++) {
 	            columnName.add(rsmd.getColumnName(i));
 	         }
 

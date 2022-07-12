@@ -51,12 +51,15 @@ public class AddPane extends JPanel implements ActionListener, ItemListener{
 		}
 			
 			jp[i].add(combo);
+			combo.addItemListener(this);
 			
 			jp[size] = new JPanel();
 			
 			okb = new JButton("저장하기");
+			okb.addActionListener(this); // 이벤트 추가
 			
 			rsb = new JButton("다시쓰기");
+			rsb.addActionListener(this); // 이벤트 추가
 			
 			jp[size].add(okb);
 			jp[size].add(rsb);
@@ -65,15 +68,42 @@ public class AddPane extends JPanel implements ActionListener, ItemListener{
 	}
 	
 	@Override
-	public void itemStateChanged(ItemEvent e) {
+	public void itemStateChanged(ItemEvent ie) {
+		/*
+		 *  - 콤보박스의 내용을 선택할때 사용함
+		 */
 		
-		
+		if(ie.getStateChange() == ItemEvent.SELECTED)
+			department = Integer.parseInt(ie.getItem().toString());
 	}
 
 	@Override
-	public void actionPerformed(ActionEvent e) {
+	public void actionPerformed(ActionEvent ae) {
+		/* 저장하기 버튼을 누르면 텍스트 필드의 내용을 데이터베이스에 저장
+		 * 다시쓰기 버튼을 누르면 텍스트 필드를 초기화함
+		*/
 		
+		String ae_type = ae.getActionCommand();
+		EmployeeVO evo = null;
+		employeeDAO edvo = null;
 		
+		if(ae_type.equals(okb.getText())) {
+			try {
+				evo = new EmployeeVO(0,tf[0].getText(), tf[1].getText(), department, tf[2].getText());
+				edvo = new employeeDAO();
+				edvo.getEmployeeRegist(evo);
+			} catch (Exception e) {
+				System.out.println("e:[" + e + "]");
+			}
+			if(edvo != null) {
+				JOptionPane.showMessageDialog(this, tf[0].getText() + "님이 성공적으로 추가!");
+			}
+		}else if(ae_type.equals(rsb.getText())) {
+			int size = caption.length;
+			for(int i = 0; i < size-1 ; i++) {
+				tf[i].setText(""); // tf[i]를 초기화
+			}
+		}
 	}
 	
 }
