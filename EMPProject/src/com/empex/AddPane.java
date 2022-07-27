@@ -50,7 +50,7 @@ public class AddPane extends JPanel implements ActionListener, ItemListener{
 			combo.addItem(c*10);
 		}
 			
-			jp[i].add(combo);
+			jp[3].add(combo);
 			combo.addItemListener(this);
 			
 			jp[size] = new JPanel();
